@@ -478,12 +478,16 @@ label {
   height: 100%;
   z-index: 100;
 }
-.splash-block:before {
-  content: '';
+.splash-block .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   display: inline-block;
-  height: 20%;
   vertical-align: middle;
-  margin-right: -0.25em;
+  text-align: center;
+  width: 100%;
+  padding: 100px 0;
 }
 .centered {
   display: inline-block;
