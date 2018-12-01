@@ -216,8 +216,8 @@ body {
   background: #fff;
   color: #666;
   font-size: 14px;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 150;
 }
 h1,
 h2,
@@ -225,8 +225,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 400;
   color: #444;
   margin-top: 0;
   margin-bottom: 15px;
@@ -337,7 +337,7 @@ label {
   -moz-border-radius: 2px;
   border-radius: 2px;
   border-width: 2px;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Cormorant Upright', serif;
   border-color: transparent;
 }
 .btn:hover {
@@ -374,6 +374,12 @@ label {
   font-size: 14px;
   color: #555;
 }
+
+.header .navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /*= SECTIONS
 ---------------------------------------------------------------------------------------------- */
 .section {
@@ -448,7 +454,7 @@ label {
   font-size: 32px;
 }
 .section-headlines > h4 {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Cormorant Upright', serif;
   font-size: 3em;
   text-transform: uppercase;
   color: #65839b;
